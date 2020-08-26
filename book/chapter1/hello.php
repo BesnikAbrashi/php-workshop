@@ -1,5 +1,6 @@
 <?php
 
-echo "Hello World!";
+$name = $argv[1];
 
+echo "Hello " . $name;
 ?>
