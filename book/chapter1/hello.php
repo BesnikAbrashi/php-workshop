@@ -1,6 +1,2 @@
-<?php
-
-$name = $_GET['companyName'];
-
-echo "Hello " . $name;
-?>
+<h1><?php echo "Hello " . $_GET['companyName']; ?>!</h1>
+<hr>
