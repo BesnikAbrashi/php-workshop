@@ -1,6 +1,6 @@
 <?php
 
-$name = $argv[1];
+$name = $_GET['companyName'];
 
 echo "Hello " . $name;
 ?>
